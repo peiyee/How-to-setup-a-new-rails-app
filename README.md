@@ -5,11 +5,13 @@
 rails new <app-name> --database=<database-name>
 eg: rails new quora --database=postgresql
 ```
-2) Create a new database
+2) Specify ruby version in `Gemfile`, eg: `ruby '2.2.1'`
+
+3) Create a new database
 ```
 rake db:create
 ```
-3) Setup rspec, shoulda, and capybara(selenium driver)
+4) Setup rspec, shoulda, and capybara(selenium driver)
   * Add following gems to 'Gemfile'
 ```
 gem 'puma'
@@ -47,6 +49,13 @@ end
 ```
 require 'capybara/rails'
 ```
+## Terminal command
+1. To start **server**, `rails s`
+2. To start **console**, `rails c`
+3. To generate/destroy **model**, `rails g/d model <model-name> <attributes>`
+4. To generate/destroy **migration**, `rails g/d migration <migration-name> <attributes>`
+5. To start guard, `guard`
 
 ## Note
-Rails will auto generate `README.rdoc`, change this file name to `README.md` in order to use Github markdown.
+1. Rails will auto generate `README.rdoc`, change this file name to `README.md` in order to use Github markdown.
+
