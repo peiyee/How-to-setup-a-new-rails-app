@@ -13,6 +13,7 @@ rvm use ruby-version
 3) Install rails
 ```
 gem install rails
+gem install bundler
 ```
 4) Install nodejs
 ```
@@ -22,7 +23,7 @@ sudo apt-get install nodejs
 ```
 5) Install qt5(optional)
  * Install this if you want to use capybara
- * Reference: https://github.com/thoughtbot/capybara-webkit/wiki/Installing-Qt-and-compiling-capybara-webkit
+ * Reference: https://github.com/thoughtbot/capybara-webkit/wiki/Installing-Qt-and-compiling-capybara-webkit#debian-testing-unstable-stable-wheezy-ubuntu
 ```
  sudo apt-get install qt5-default libqt5webkit5-dev gstreamer1.0-plugins-base gstreamer1.0-tools gstreamer1.0-x
 ```
