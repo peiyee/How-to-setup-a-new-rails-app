@@ -35,6 +35,17 @@ sudo apt-get update
 
 sudo apt-get install imagemagick --fix-missing
 ```
+7) Install postgresql(optional)
+* Install this if you want to use Postgresql as your app database
+```
+sudo apt-get update
+sudo apt-get install postgresql postgresql-contrib
+sudo apt-get install libpq-dev (important for pg gem)
+```
+* Create a user with superuser access for your postgresql
+```
+sudo -u postgres createuser username -s
+```
 ## Create a New Rails App
 
 1) Create a new app
